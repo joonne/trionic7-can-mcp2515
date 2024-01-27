@@ -1,0 +1,242 @@
+[
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/CDC.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/CDC.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": "/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/CDC.cpp",
+        "output": ".pio/build/nanoatmega328/FrameworkArduino/CDC.cpp.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/HardwareSerial.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": "/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial.cpp",
+        "output": ".pio/build/nanoatmega328/FrameworkArduino/HardwareSerial.cpp.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/HardwareSerial0.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial0.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": "/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial0.cpp",
+        "output": ".pio/build/nanoatmega328/FrameworkArduino/HardwareSerial0.cpp.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/HardwareSerial1.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial1.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": "/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial1.cpp",
+        "output": ".pio/build/nanoatmega328/FrameworkArduino/HardwareSerial1.cpp.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/HardwareSerial2.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial2.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": "/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial2.cpp",
+        "output": ".pio/build/nanoatmega328/FrameworkArduino/HardwareSerial2.cpp.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/HardwareSerial3.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial3.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": "/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial3.cpp",
+        "output": ".pio/build/nanoatmega328/FrameworkArduino/HardwareSerial3.cpp.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/IPAddress.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/IPAddress.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": "/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/IPAddress.cpp",
+        "output": ".pio/build/nanoatmega328/FrameworkArduino/IPAddress.cpp.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/PluggableUSB.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/PluggableUSB.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": "/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/PluggableUSB.cpp",
+        "output": ".pio/build/nanoatmega328/FrameworkArduino/PluggableUSB.cpp.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/Print.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/Print.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": "/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/Print.cpp",
+        "output": ".pio/build/nanoatmega328/FrameworkArduino/Print.cpp.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/Stream.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/Stream.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": "/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/Stream.cpp",
+        "output": ".pio/build/nanoatmega328/FrameworkArduino/Stream.cpp.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/Tone.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/Tone.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": "/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/Tone.cpp",
+        "output": ".pio/build/nanoatmega328/FrameworkArduino/Tone.cpp.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/USBCore.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/USBCore.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": "/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/USBCore.cpp",
+        "output": ".pio/build/nanoatmega328/FrameworkArduino/USBCore.cpp.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nanoatmega328/FrameworkArduino/WInterrupts.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/WInterrupts.c",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": "/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/WInterrupts.c",
+        "output": ".pio/build/nanoatmega328/FrameworkArduino/WInterrupts.c.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/WMath.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/WMath.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": "/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/WMath.cpp",
+        "output": ".pio/build/nanoatmega328/FrameworkArduino/WMath.cpp.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/WString.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/WString.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": "/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/WString.cpp",
+        "output": ".pio/build/nanoatmega328/FrameworkArduino/WString.cpp.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/abi.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/abi.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": "/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/abi.cpp",
+        "output": ".pio/build/nanoatmega328/FrameworkArduino/abi.cpp.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nanoatmega328/FrameworkArduino/hooks.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/hooks.c",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": "/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/hooks.c",
+        "output": ".pio/build/nanoatmega328/FrameworkArduino/hooks.c.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/main.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/main.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": "/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/main.cpp",
+        "output": ".pio/build/nanoatmega328/FrameworkArduino/main.cpp.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/new.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/new.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": "/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/new.cpp",
+        "output": ".pio/build/nanoatmega328/FrameworkArduino/new.cpp.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nanoatmega328/FrameworkArduino/wiring.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/wiring.c",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": "/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/wiring.c",
+        "output": ".pio/build/nanoatmega328/FrameworkArduino/wiring.c.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nanoatmega328/FrameworkArduino/wiring_analog.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_analog.c",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": "/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_analog.c",
+        "output": ".pio/build/nanoatmega328/FrameworkArduino/wiring_analog.c.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nanoatmega328/FrameworkArduino/wiring_digital.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_digital.c",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": "/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_digital.c",
+        "output": ".pio/build/nanoatmega328/FrameworkArduino/wiring_digital.c.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -mmcu=atmega328p -x assembler-with-cpp -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs -c -o .pio/build/nanoatmega328/FrameworkArduino/wiring_pulse.S.o /home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_pulse.S",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": "/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_pulse.S",
+        "output": ".pio/build/nanoatmega328/FrameworkArduino/wiring_pulse.S.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nanoatmega328/FrameworkArduino/wiring_pulse.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_pulse.c",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": "/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_pulse.c",
+        "output": ".pio/build/nanoatmega328/FrameworkArduino/wiring_pulse.c.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nanoatmega328/FrameworkArduino/wiring_shift.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_shift.c",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": "/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_shift.c",
+        "output": ".pio/build/nanoatmega328/FrameworkArduino/wiring_shift.c.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/lib0bc/SPI/SPI.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/joonne/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/joonne/.platformio/packages/framework-arduino-avr/libraries/SPI/src/SPI.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": "/home/joonne/.platformio/packages/framework-arduino-avr/libraries/SPI/src/SPI.cpp",
+        "output": ".pio/build/nanoatmega328/lib0bc/SPI/SPI.cpp.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/lib64e/FastLED/FastLED.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nanoatmega328/FastLED/src -I/home/joonne/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nanoatmega328/FastLED/src/FastLED.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": ".pio/libdeps/nanoatmega328/FastLED/src/FastLED.cpp",
+        "output": ".pio/build/nanoatmega328/lib64e/FastLED/FastLED.cpp.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/lib64e/FastLED/bitswap.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nanoatmega328/FastLED/src -I/home/joonne/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nanoatmega328/FastLED/src/bitswap.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": ".pio/libdeps/nanoatmega328/FastLED/src/bitswap.cpp",
+        "output": ".pio/build/nanoatmega328/lib64e/FastLED/bitswap.cpp.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/lib64e/FastLED/colorpalettes.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nanoatmega328/FastLED/src -I/home/joonne/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nanoatmega328/FastLED/src/colorpalettes.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": ".pio/libdeps/nanoatmega328/FastLED/src/colorpalettes.cpp",
+        "output": ".pio/build/nanoatmega328/lib64e/FastLED/colorpalettes.cpp.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/lib64e/FastLED/colorutils.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nanoatmega328/FastLED/src -I/home/joonne/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nanoatmega328/FastLED/src/colorutils.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": ".pio/libdeps/nanoatmega328/FastLED/src/colorutils.cpp",
+        "output": ".pio/build/nanoatmega328/lib64e/FastLED/colorutils.cpp.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/lib64e/FastLED/hsv2rgb.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nanoatmega328/FastLED/src -I/home/joonne/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nanoatmega328/FastLED/src/hsv2rgb.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": ".pio/libdeps/nanoatmega328/FastLED/src/hsv2rgb.cpp",
+        "output": ".pio/build/nanoatmega328/lib64e/FastLED/hsv2rgb.cpp.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/lib64e/FastLED/lib8tion.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nanoatmega328/FastLED/src -I/home/joonne/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nanoatmega328/FastLED/src/lib8tion.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": ".pio/libdeps/nanoatmega328/FastLED/src/lib8tion.cpp",
+        "output": ".pio/build/nanoatmega328/lib64e/FastLED/lib8tion.cpp.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/lib64e/FastLED/noise.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nanoatmega328/FastLED/src -I/home/joonne/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nanoatmega328/FastLED/src/noise.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": ".pio/libdeps/nanoatmega328/FastLED/src/noise.cpp",
+        "output": ".pio/build/nanoatmega328/lib64e/FastLED/noise.cpp.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/lib64e/FastLED/platforms.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nanoatmega328/FastLED/src -I/home/joonne/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nanoatmega328/FastLED/src/platforms.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": ".pio/libdeps/nanoatmega328/FastLED/src/platforms.cpp",
+        "output": ".pio/build/nanoatmega328/lib64e/FastLED/platforms.cpp.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/lib64e/FastLED/platforms/esp/32/clockless_rmt_esp32.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nanoatmega328/FastLED/src -I/home/joonne/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nanoatmega328/FastLED/src/platforms/esp/32/clockless_rmt_esp32.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": ".pio/libdeps/nanoatmega328/FastLED/src/platforms/esp/32/clockless_rmt_esp32.cpp",
+        "output": ".pio/build/nanoatmega328/lib64e/FastLED/platforms/esp/32/clockless_rmt_esp32.cpp.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/lib64e/FastLED/power_mgt.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nanoatmega328/FastLED/src -I/home/joonne/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nanoatmega328/FastLED/src/power_mgt.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": ".pio/libdeps/nanoatmega328/FastLED/src/power_mgt.cpp",
+        "output": ".pio/build/nanoatmega328/lib64e/FastLED/power_mgt.cpp.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/lib64e/FastLED/wiring.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nanoatmega328/FastLED/src -I/home/joonne/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nanoatmega328/FastLED/src/wiring.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": ".pio/libdeps/nanoatmega328/FastLED/src/wiring.cpp",
+        "output": ".pio/build/nanoatmega328/lib64e/FastLED/wiring.cpp.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/lib014/MCP_CAN/mcp_can.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -Ilib/MCP_CAN -I/home/joonne/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs lib/MCP_CAN/mcp_can.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": "lib/MCP_CAN/mcp_can.cpp",
+        "output": ".pio/build/nanoatmega328/lib014/MCP_CAN/mcp_can.cpp.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/libc01/Trionic/SidMessageHandler/SidMessageHandler.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -Ilib/Trionic -Ilib/MCP_CAN -I/home/joonne/.platformio/packages/framework-arduino-avr/libraries/SPI/src -Ilib/util -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs lib/Trionic/SidMessageHandler/SidMessageHandler.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": "lib/Trionic/SidMessageHandler/SidMessageHandler.cpp",
+        "output": ".pio/build/nanoatmega328/libc01/Trionic/SidMessageHandler/SidMessageHandler.cpp.o"
+    },
+    {
+        "command": "/home/joonne/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/src/main.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -Iinclude -Isrc -Ilib/Trionic -Ilib/MCP_CAN -Ilib/util -I.pio/libdeps/nanoatmega328/FastLED/src -I/home/joonne/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/joonne/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/joonne/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs src/main.cpp",
+        "directory": "/home/joonne/code/projects/trionic7-can-mcp2515",
+        "file": "src/main.cpp",
+        "output": ".pio/build/nanoatmega328/src/main.cpp.o"
+    }
+]

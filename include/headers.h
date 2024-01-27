@@ -5,7 +5,7 @@
 
 void readCanBus();
 uint8_t scaleBrightness(uint16_t val, uint16_t minimum, uint16_t maximum);
-void readCanBus();
+/* void readCanBus(); */
 void steeringWheelActions(STEERING_WHEEL action);
 void sidActions(SID_BUTTON action);
 void lightActions(const uint8_t *data);
