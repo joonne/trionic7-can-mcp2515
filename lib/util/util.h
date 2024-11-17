@@ -1,16 +1,8 @@
-#pragma once
+#ifndef UTIL_H
+#define UTIL_H
 
-namespace util
-{
-    template <typename T>
-    T minVal(T a, T b)
-    {
-        return a < b ? a : b;
-    }
-    
-    template <typename T>
-    T maxVal(T a, T b)
-    {
-        return a > b ? a : b;
-    }
-}
+#include <Arduino.h>
+
+uint8_t getHighBit(uint8_t value);
+
+#endif // UTIL_H
