@@ -1,25 +1,11 @@
 #include "communication.h"
 #include "defines.h"
-#include "headers.h"
 #include "mcp_can.h"
 #include "mcp_can_dfs.h"
 #include "util.h"
 #include <Arduino.h>
 
 MCP_CAN CAN(CAN_CS_PIN);
-
-void setup() {
-  Serial.begin(115200);
-  while (CAN.begin(MCP_ANY, I_BUS, MCP_8MHZ) != CAN_OK) {
-    delay(100);
-  }
-  CAN.setMode(MCP_NORMAL);
-}
-
-void loop() {
-  readCanBus();
-  delay(500);
-}
 
 unsigned char CDC_HEARTBEAT_CMD[8] = {0xE0, 0x00, 0x3F, 0x31,
                                       0xFF, 0xFF, 0xFF, 0xD0};
@@ -34,6 +20,29 @@ void cdcHeartbeat() {
 void cdcHandshake() {
   CAN.sendMsgBuf(static_cast<unsigned long>(CAN_ID::CDC_HANDSHAKE_RESPONSE), 8,
                  CDC_HANDSHAKE_CMD);
+}
+
+void steeringWheelActions(STEERING_WHEEL action) {
+  switch (action) {
+  case STEERING_WHEEL::NXT:
+    DEBUG_MESSAGE("NEXT");
+    break;
+  case STEERING_WHEEL::SEEK_DOWN:
+    DEBUG_MESSAGE("SEEK DOWN");
+    break;
+  case STEERING_WHEEL::SEEK_UP:
+    DEBUG_MESSAGE("SEEK UP");
+    break;
+  case STEERING_WHEEL::SRC:
+    DEBUG_MESSAGE("SRC");
+    break;
+  case STEERING_WHEEL::VOL_UP:
+    DEBUG_MESSAGE("VOL+");
+    break;
+  case STEERING_WHEEL::VOL_DOWN:
+    DEBUG_MESSAGE("VOL-");
+    break;
+  }
 }
 
 void readCanBus() {
@@ -67,25 +76,15 @@ void readCanBus() {
   }
 }
 
-void steeringWheelActions(STEERING_WHEEL action) {
-  switch (action) {
-  case STEERING_WHEEL::NXT:
-    DEBUG_MESSAGE("NEXT");
-    break;
-  case STEERING_WHEEL::SEEK_DOWN:
-    DEBUG_MESSAGE("SEEK DOWN");
-    break;
-  case STEERING_WHEEL::SEEK_UP:
-    DEBUG_MESSAGE("SEEK UP");
-    break;
-  case STEERING_WHEEL::SRC:
-    DEBUG_MESSAGE("SRC");
-    break;
-  case STEERING_WHEEL::VOL_UP:
-    DEBUG_MESSAGE("VOL+");
-    break;
-  case STEERING_WHEEL::VOL_DOWN:
-    DEBUG_MESSAGE("VOL-");
-    break;
+void setup() {
+  Serial.begin(115200);
+  while (CAN.begin(MCP_ANY, I_BUS, MCP_8MHZ) != CAN_OK) {
+    delay(100);
   }
+  CAN.setMode(MCP_NORMAL);
+}
+
+void loop() {
+  readCanBus();
+  delay(500);
 }
