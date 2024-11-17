@@ -1,17 +1,6 @@
 #ifndef COMMUNICATION_H
 #define COMMUNICATION_H
 
-enum SID_MESSAGE {
-  ORDER,
-  IDK,
-  ROW,
-  LETTER0,
-  LETTER1,
-  LETTER2,
-  LETTER3,
-  LETTER4
-};
-
 enum class CAN_ID : unsigned long int {
   STEERING_WHEEL_BUTTONS = 0x290,
   RADIO_MSG = 0x328,
@@ -33,14 +22,6 @@ enum class STEERING_WHEEL : unsigned char {
   SRC = 5,
   VOL_UP = 6,
   VOL_DOWN = 7
-};
-
-enum class SID_BUTTON : unsigned char {
-  NPANEL = 3,
-  UP = 4,
-  DOWN = 5,
-  SET = 6,
-  CLR = 7
 };
 
 #endif // COMMUNICATION_H
