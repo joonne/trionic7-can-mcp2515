@@ -1,4 +1,5 @@
-#pragma once
+#ifndef DEFINES_H
+#define DEFINES_H
 
 #include <Arduino.h>
 
@@ -12,8 +13,6 @@
 #define I_BUS CAN_47KBPS
 #define P_BUS CAN_500KBPS
 
-#if DEBUG
 #define DEBUG_MESSAGE(msg) Serial.println(msg);
-#else
-#define DEBUG_MESSAGE(msg)
-#endif
+
+#endif // DEFINES_H

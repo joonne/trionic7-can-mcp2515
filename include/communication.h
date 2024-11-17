@@ -1,4 +1,5 @@
-#pragma once
+#ifndef COMMUNICATION_H
+#define COMMUNICATION_H
 
 enum SID_MESSAGE {
   ORDER,
@@ -41,3 +42,5 @@ enum class SID_BUTTON : unsigned char {
   SET = 6,
   CLR = 7
 };
+
+#endif // COMMUNICATION_H
