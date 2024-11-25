@@ -3,8 +3,6 @@
 
 #define CAN_CS_PIN 10
 
-#define AUDIO 2
-
 #define I_BUS CAN_47KBPS
 #define P_BUS CAN_500KBPS
 
