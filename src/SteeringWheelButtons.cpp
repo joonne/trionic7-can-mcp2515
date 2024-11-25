@@ -2,7 +2,7 @@
 #include <Arduino.h>
 
 SteeringWheelButtons::STEERING_WHEEL_BUTTON
-SteeringWheelButtons::decode(unsigned char data) {
+SteeringWheelButtons::decode(const unsigned char &data) {
   switch (data) {
   case 0x59: // NXT
     return STEERING_WHEEL_BUTTON::NXT;

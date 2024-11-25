@@ -9,12 +9,12 @@ unsigned char CDC_HANDSHAKE_CMD[8] = {0x32, 0x00, 0x00, 0x16,
 CdChanger::CdChanger(MCP_CAN can) : _can(can) {}
 
 void CdChanger::heartbeat() {
-  _can.sendMsgBuf(static_cast<unsigned long>(CAN_MESSAGE_OUT::CDC_HEARTBEAT), 8,
-                  CDC_HEARTBEAT_CMD);
+  _can.sendMsgBuf(static_cast<unsigned long>(CAN_MESSAGE_ID_OUT::CDC_HEARTBEAT),
+                  8, CDC_HEARTBEAT_CMD);
 }
 
 void CdChanger::handshake() {
   _can.sendMsgBuf(
-      static_cast<unsigned long>(CAN_MESSAGE_OUT::CDC_HANDSHAKE_RESPONSE), 8,
+      static_cast<unsigned long>(CAN_MESSAGE_ID_OUT::CDC_HANDSHAKE_RESPONSE), 8,
       CDC_HANDSHAKE_CMD);
 }

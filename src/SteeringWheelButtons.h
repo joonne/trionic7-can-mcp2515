@@ -12,7 +12,7 @@ public:
     VOL_UP,
     VOL_DOWN
   };
-  static STEERING_WHEEL_BUTTON decode(unsigned char data);
+  static STEERING_WHEEL_BUTTON decode(const unsigned char &data);
   static void onFrame(unsigned char data[8]);
 };
 

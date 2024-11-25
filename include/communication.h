@@ -1,12 +1,12 @@
 #ifndef COMMUNICATION_H
 #define COMMUNICATION_H
 
-enum class CAN_MESSAGE_IN : unsigned long int {
+enum class CAN_MESSAGE_ID_IN : unsigned long int {
   STEERING_WHEEL_BUTTONS = 0x290,
   CDC_HANDSHAKE_REQUEST = 0x6A1,
 };
 
-enum class CAN_MESSAGE_OUT : unsigned long int {
+enum class CAN_MESSAGE_ID_OUT : unsigned long int {
   CDC_HEARTBEAT = 0x3C8,
   CDC_HANDSHAKE_RESPONSE = 0x6A2,
 };

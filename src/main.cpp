@@ -7,7 +7,7 @@
 #include <Arduino.h>
 
 MCP_CAN CAN(CAN_CS_PIN);
-CdChanger cdc(CAN);
+CdChanger CDC(CAN);
 
 void readCanBus() {
   uint8_t len;
@@ -20,17 +20,17 @@ void readCanBus() {
   }
 
   if (CAN.readMsgBuf(&id, &len, data) == CAN_OK) {
-    switch (static_cast<CAN_MESSAGE_IN>(id)) {
-    case CAN_MESSAGE_IN::CDC_HANDSHAKE_REQUEST: {
+    switch (static_cast<CAN_MESSAGE_ID_IN>(id)) {
+    case CAN_MESSAGE_ID_IN::CDC_HANDSHAKE_REQUEST: {
       Serial.println("CDC_HANDSHAKE_REQUEST");
-      return cdc.handshake();
+      return CDC.handshake();
     }
-    case CAN_MESSAGE_IN::STEERING_WHEEL_BUTTONS: {
+    case CAN_MESSAGE_ID_IN::STEERING_WHEEL_BUTTONS: {
       Serial.println("STEEERING_WHEEL_BUTTONS");
       return SteeringWheelButtons::onFrame(data);
     }
     default: {
-      Serial.println("UNKNOWN CAN ID: " + String(id));
+      Serial.println("UNKNOWN CAN MESSAGE ID: " + String(id));
       return;
     }
     }
@@ -48,7 +48,7 @@ void setup() {
 }
 
 void loop() {
-  cdc.heartbeat();
+  CDC.heartbeat();
   readCanBus();
   delay(500);
 }
